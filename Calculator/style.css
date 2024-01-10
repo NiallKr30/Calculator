@@ -1,70 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-
-
-
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
 }
-
 
 body {
-    background-color: #e3f8e4;
-    font-family: 'Muli', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+  background-color: #e3f8e4;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
-
 
 .output {
-    width: 100%;
-    height: 20%;
-    border-radius: 10px;
-    background-color: rgb(243, 239, 239);
-margin-bottom: 8px;
-box-shadow: inset 5px 5px;
+  width: 100%;
+  height: 20%;
+  border-radius: 10px;
+  background-color: rgb(243, 239, 239);
+  margin-bottom: 8px;
+  box-shadow: inset 5px 5px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-wrap: wrap;
+  overflow: hidden;
+
+  font-size: 100px;
+
 }
 
+.result {
+    font-family: 'Orbitron', sans-serif;
+    padding-right: 10px;
+    font-size: inherit;
+    position: relative;
+    top: 10px;
+    font-weight: 300;
+}
 .container {
-    width: 450px;
-    height: 740px;
-background-color:  aqua;
-    border-radius: 40px;
-    padding: 30px;
-    padding-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    border: 1px solid rgb(130, 130, 130);
-    align-items: center;
-    flex-direction: column;
-    box-shadow:8px 8px 0px 0px rgb(188, 189, 189), 25px 25px 20px;
+  width: 450px;
+  height: 740px;
+  background-color: aqua;
+  border-radius: 40px;
+  padding: 30px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(130, 130, 130);
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 8px 8px 0px 0px rgb(0, 179, 179), 25px 25px 20px;
 }
 
 .btn {
-    width: 95px;
-    height: 95px;
-    border-radius: 50%;
-    margin: 5px;
-    box-shadow: 2px 2px black;
-    font-size: 27px;
-    font-weight: bold;
-    background: linear-gradient(rgb(255, 238, 0),red);
-    color: #e3f8e4; 
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  margin: 5px;
+  box-shadow: 2px 2px black;
+  font-size: 27px;
+  font-weight: bold;
+  background: linear-gradient(rgb(255, 238, 0), red);
+  color: #e3f8e4;
 
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-
-
-
-
